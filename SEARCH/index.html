@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>SEARCH IMAGE</title>
+   	<link rel="stylesheet" href="css/style.css"> 	
+   	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  	<script src="js/template.js"></script>
+   	<script src="js/script.js"></script>   
+</head>
+
+<body>
+<!-- TEMPLATE CONTENT -->
+<script id="total" type="text/template">
+	<div class="picture">
+	    <a href="<%= pageURL %>" target="_blank">
+	    <img class="img" src="<%= previewURL %>" alt="img"></a>
+	</div>
+</script>
+<!-- CONTENT PAGE -->
+<div class="wrapper">
+	<div class="tm"><img src="img/search.png"></div>
+		<!-- SEARCH FORM -->	
+		<form action="#" method="post" id="search_form" class="form"> 
+  			<input type="text" name="search" id="question" class="input" placeholder="Введите поисковой запрос">
+  			<input type="submit" value="" class="btn">
+  		</form>
+    <section></section>
+</div>
+
+</body>
+</html>
